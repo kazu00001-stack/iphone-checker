@@ -7,6 +7,21 @@
   const yen = (n) => "¥" + n.toLocaleString("ja-JP");
   const signedYen = (n) => (n >= 0 ? "+" : "") + yen(n);
 
+  const FETCHED_FMT = new Intl.DateTimeFormat("ja-JP", {
+    timeZone: "Asia/Tokyo",
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+    hour: "2-digit",
+    minute: "2-digit",
+  });
+  function formatFetchedAt(iso) {
+    if (!iso) return "未取得";
+    const d = new Date(iso);
+    if (isNaN(d.getTime())) return iso;
+    return FETCHED_FMT.format(d) + " (JST)";
+  }
+
   function getMileRate() {
     const params = new URLSearchParams(window.location.search);
     const fromQuery = parseFloat(params.get("rate"));
@@ -121,7 +136,7 @@
       const data = await resp.json();
       const mileRate = getMileRate();
       document.getElementById("rate-input").value = mileRate.toFixed(1);
-      document.getElementById("fetched-at").textContent = data.fetched_at || "未取得";
+      document.getElementById("fetched-at").textContent = formatFetchedAt(data.fetched_at);
       const rows = buildRows(data, mileRate);
       renderTable(rows);
       status.textContent = "";
