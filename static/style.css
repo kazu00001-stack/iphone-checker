@@ -1,0 +1,53 @@
+* { box-sizing: border-box; }
+body {
+  font-family: -apple-system, "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+  margin: 0;
+  background: #f7f8fb;
+  color: #1d2330;
+}
+header {
+  background: #1d2330;
+  color: #fff;
+  padding: 18px 28px;
+}
+header h1 {
+  margin: 0 0 10px;
+  font-size: 1.35rem;
+  letter-spacing: 0.02em;
+}
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  align-items: center;
+  font-size: 0.9rem;
+}
+.rate-form, .refresh-form { display: inline-flex; align-items: center; gap: 8px; }
+.rate-form input[type="number"] {
+  width: 80px; padding: 4px 6px; border-radius: 4px; border: 1px solid #555; background: #fff; color: #1d2330;
+}
+button {
+  background: #0a84ff; color: #fff; border: none; padding: 6px 14px; border-radius: 6px; cursor: pointer; font-weight: 600;
+}
+button:hover { background: #096ee0; }
+button:disabled { background: #6c7480; cursor: not-allowed; }
+
+main { padding: 22px 28px 60px; }
+.empty { padding: 40px; text-align: center; color: #555; }
+
+table#result-table { background: #fff; }
+table#result-table thead th {
+  background: #eef1f6;
+  font-weight: 700;
+  white-space: nowrap;
+}
+td.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.profit-pos { color: #0c7a3a; font-weight: 700; }
+.profit-neg { color: #c0392b; font-weight: 700; }
+.badge {
+  display: inline-block; margin-left: 6px; padding: 0 6px; border-radius: 4px;
+  background: #ffe9b3; color: #6a4a00; font-size: 0.7rem; font-weight: 700;
+}
+.site { color: #6a7383; font-weight: 500; font-size: 0.85em; }
+
+footer { padding: 16px 28px; color: #6a7383; }

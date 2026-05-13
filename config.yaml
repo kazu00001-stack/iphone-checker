@@ -1,0 +1,64 @@
+default_mile_rate: 1.0
+
+apple_models:
+  - name: "iPhone 17 Pro Max"
+    slug: "iphone-17-pro"
+    capacities: ["256GB", "512GB", "1TB", "2TB"]
+    fallback_prices:
+      "256GB": 194800
+      "512GB": 229800
+      "1TB": 264800
+      "2TB": 329800
+  - name: "iPhone 17 Pro"
+    slug: "iphone-17-pro"
+    capacities: ["256GB", "512GB", "1TB"]
+    fallback_prices:
+      "256GB": 179800
+      "512GB": 214800
+      "1TB": 249800
+  - name: "iPhone Air"
+    slug: "iphone-air"
+    capacities: ["256GB", "512GB", "1TB"]
+    fallback_prices:
+      "256GB": 159800
+      "512GB": 194800
+      "1TB": 229800
+  - name: "iPhone 17"
+    slug: "iphone-17"
+    capacities: ["256GB", "512GB"]
+    fallback_prices:
+      "256GB": 129800
+      "512GB": 164800
+  - name: "iPhone 17e"
+    slug: "iphone-17e"
+    capacities: ["256GB", "512GB"]
+    fallback_prices:
+      "256GB": 99800
+      "512GB": 134800
+  - name: "iPhone 16 Plus"
+    slug: "iphone-16"
+    capacities: ["128GB", "256GB"]
+    fallback_prices:
+      "128GB": 129800
+      "256GB": 144800
+  - name: "iPhone 16"
+    slug: "iphone-16"
+    capacities: ["128GB"]
+    fallback_prices:
+      "128GB": 114800
+
+scrapers:
+  apple:
+    enabled: true
+    base_url: "https://www.apple.com/jp/shop/buy-iphone"
+  iosys:
+    enabled: true
+    url: "https://k-tai-iosys.com/pricelist/smartphone/iphone/"
+  mobile_mix:
+    enabled: true
+    candidate_urls:
+      - "https://mobile-mix.jp/"
+  ichome:
+    enabled: true
+    candidate_urls:
+      - "https://www.1-chome.com/mobile"

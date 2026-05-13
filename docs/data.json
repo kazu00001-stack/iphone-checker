@@ -1,0 +1,686 @@
+{
+  "fetched_at": "2026-05-13T23:16:47+09:00",
+  "apple_models": [
+    {
+      "name": "iPhone 17 Pro Max",
+      "capacity": "256GB",
+      "price_jpy": 194800,
+      "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17-pro",
+      "is_fallback": false
+    },
+    {
+      "name": "iPhone 17 Pro Max",
+      "capacity": "512GB",
+      "price_jpy": 229800,
+      "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17-pro",
+      "is_fallback": false
+    },
+    {
+      "name": "iPhone 17 Pro Max",
+      "capacity": "1TB",
+      "price_jpy": 264800,
+      "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17-pro",
+      "is_fallback": false
+    },
+    {
+      "name": "iPhone 17 Pro Max",
+      "capacity": "2TB",
+      "price_jpy": 329800,
+      "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17-pro",
+      "is_fallback": false
+    },
+    {
+      "name": "iPhone 17 Pro",
+      "capacity": "256GB",
+      "price_jpy": 179800,
+      "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17-pro",
+      "is_fallback": false
+    },
+    {
+      "name": "iPhone 17 Pro",
+      "capacity": "512GB",
+      "price_jpy": 214800,
+      "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17-pro",
+      "is_fallback": false
+    },
+    {
+      "name": "iPhone 17 Pro",
+      "capacity": "1TB",
+      "price_jpy": 249800,
+      "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17-pro",
+      "is_fallback": false
+    },
+    {
+      "name": "iPhone Air",
+      "capacity": "256GB",
+      "price_jpy": 159800,
+      "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-air",
+      "is_fallback": false
+    },
+    {
+      "name": "iPhone Air",
+      "capacity": "512GB",
+      "price_jpy": 194800,
+      "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-air",
+      "is_fallback": false
+    },
+    {
+      "name": "iPhone Air",
+      "capacity": "1TB",
+      "price_jpy": 229800,
+      "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-air",
+      "is_fallback": false
+    },
+    {
+      "name": "iPhone 17",
+      "capacity": "256GB",
+      "price_jpy": 129800,
+      "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17",
+      "is_fallback": false
+    },
+    {
+      "name": "iPhone 17",
+      "capacity": "512GB",
+      "price_jpy": 164800,
+      "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17",
+      "is_fallback": false
+    },
+    {
+      "name": "iPhone 17e",
+      "capacity": "256GB",
+      "price_jpy": 99800,
+      "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17e",
+      "is_fallback": false
+    },
+    {
+      "name": "iPhone 17e",
+      "capacity": "512GB",
+      "price_jpy": 134800,
+      "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17e",
+      "is_fallback": false
+    },
+    {
+      "name": "iPhone 16 Plus",
+      "capacity": "128GB",
+      "price_jpy": 129800,
+      "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-16",
+      "is_fallback": false
+    },
+    {
+      "name": "iPhone 16 Plus",
+      "capacity": "256GB",
+      "price_jpy": 144800,
+      "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-16",
+      "is_fallback": false
+    },
+    {
+      "name": "iPhone 16",
+      "capacity": "128GB",
+      "price_jpy": 114800,
+      "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-16",
+      "is_fallback": false
+    }
+  ],
+  "quotes": [
+    {
+      "site": "iosys",
+      "name": "iPhone 17e",
+      "capacity": "256GB",
+      "price_jpy": 86000,
+      "source_url": "https://k-tai-iosys.com/pricelist/smartphone/iphone/"
+    },
+    {
+      "site": "iosys",
+      "name": "iPhone 17e",
+      "capacity": "512GB",
+      "price_jpy": 106000,
+      "source_url": "https://k-tai-iosys.com/pricelist/smartphone/iphone/"
+    },
+    {
+      "site": "iosys",
+      "name": "iPhone 17",
+      "capacity": "256GB",
+      "price_jpy": 112000,
+      "source_url": "https://k-tai-iosys.com/pricelist/smartphone/iphone/"
+    },
+    {
+      "site": "iosys",
+      "name": "iPhone 17",
+      "capacity": "512GB",
+      "price_jpy": 135000,
+      "source_url": "https://k-tai-iosys.com/pricelist/smartphone/iphone/"
+    },
+    {
+      "site": "iosys",
+      "name": "iPhone 17 Pro",
+      "capacity": "256GB",
+      "price_jpy": 157000,
+      "source_url": "https://k-tai-iosys.com/pricelist/smartphone/iphone/"
+    },
+    {
+      "site": "iosys",
+      "name": "iPhone 17 Pro",
+      "capacity": "512GB",
+      "price_jpy": 187000,
+      "source_url": "https://k-tai-iosys.com/pricelist/smartphone/iphone/"
+    },
+    {
+      "site": "iosys",
+      "name": "iPhone 17 Pro",
+      "capacity": "1TB",
+      "price_jpy": 218000,
+      "source_url": "https://k-tai-iosys.com/pricelist/smartphone/iphone/"
+    },
+    {
+      "site": "iosys",
+      "name": "iPhone 17 Pro Max",
+      "capacity": "256GB",
+      "price_jpy": 172000,
+      "source_url": "https://k-tai-iosys.com/pricelist/smartphone/iphone/"
+    },
+    {
+      "site": "iosys",
+      "name": "iPhone 17 Pro Max",
+      "capacity": "512GB",
+      "price_jpy": 205000,
+      "source_url": "https://k-tai-iosys.com/pricelist/smartphone/iphone/"
+    },
+    {
+      "site": "iosys",
+      "name": "iPhone 17 Pro Max",
+      "capacity": "1TB",
+      "price_jpy": 233000,
+      "source_url": "https://k-tai-iosys.com/pricelist/smartphone/iphone/"
+    },
+    {
+      "site": "iosys",
+      "name": "iPhone 17 Pro Max",
+      "capacity": "2TB",
+      "price_jpy": 281000,
+      "source_url": "https://k-tai-iosys.com/pricelist/smartphone/iphone/"
+    },
+    {
+      "site": "iosys",
+      "name": "iPhone Air",
+      "capacity": "256GB",
+      "price_jpy": 126000,
+      "source_url": "https://k-tai-iosys.com/pricelist/smartphone/iphone/"
+    },
+    {
+      "site": "iosys",
+      "name": "iPhone Air",
+      "capacity": "512GB",
+      "price_jpy": 131000,
+      "source_url": "https://k-tai-iosys.com/pricelist/smartphone/iphone/"
+    },
+    {
+      "site": "iosys",
+      "name": "iPhone Air",
+      "capacity": "1TB",
+      "price_jpy": 146000,
+      "source_url": "https://k-tai-iosys.com/pricelist/smartphone/iphone/"
+    },
+    {
+      "site": "iosys",
+      "name": "iPhone 16e",
+      "capacity": "128GB",
+      "price_jpy": 72000,
+      "source_url": "https://k-tai-iosys.com/pricelist/smartphone/iphone/"
+    },
+    {
+      "site": "iosys",
+      "name": "iPhone 16e",
+      "capacity": "256GB",
+      "price_jpy": 80000,
+      "source_url": "https://k-tai-iosys.com/pricelist/smartphone/iphone/"
+    },
+    {
+      "site": "iosys",
+      "name": "iPhone 16e",
+      "capacity": "512GB",
+      "price_jpy": 95000,
+      "source_url": "https://k-tai-iosys.com/pricelist/smartphone/iphone/"
+    },
+    {
+      "site": "iosys",
+      "name": "iPhone 16 Pro Max",
+      "capacity": "256GB",
+      "price_jpy": 151000,
+      "source_url": "https://k-tai-iosys.com/pricelist/smartphone/iphone/"
+    },
+    {
+      "site": "iosys",
+      "name": "iPhone 16 Pro Max",
+      "capacity": "512GB",
+      "price_jpy": 166000,
+      "source_url": "https://k-tai-iosys.com/pricelist/smartphone/iphone/"
+    },
+    {
+      "site": "iosys",
+      "name": "iPhone 16 Pro Max",
+      "capacity": "1TB",
+      "price_jpy": 176000,
+      "source_url": "https://k-tai-iosys.com/pricelist/smartphone/iphone/"
+    },
+    {
+      "site": "iosys",
+      "name": "iPhone 16 Pro",
+      "capacity": "128GB",
+      "price_jpy": 126000,
+      "source_url": "https://k-tai-iosys.com/pricelist/smartphone/iphone/"
+    },
+    {
+      "site": "iosys",
+      "name": "iPhone 16 Pro",
+      "capacity": "256GB",
+      "price_jpy": 141000,
+      "source_url": "https://k-tai-iosys.com/pricelist/smartphone/iphone/"
+    },
+    {
+      "site": "iosys",
+      "name": "iPhone 16 Pro",
+      "capacity": "512GB",
+      "price_jpy": 156000,
+      "source_url": "https://k-tai-iosys.com/pricelist/smartphone/iphone/"
+    },
+    {
+      "site": "iosys",
+      "name": "iPhone 16 Pro",
+      "capacity": "1TB",
+      "price_jpy": 171000,
+      "source_url": "https://k-tai-iosys.com/pricelist/smartphone/iphone/"
+    },
+    {
+      "site": "iosys",
+      "name": "iPhone 16 Plus",
+      "capacity": "128GB",
+      "price_jpy": 98000,
+      "source_url": "https://k-tai-iosys.com/pricelist/smartphone/iphone/"
+    },
+    {
+      "site": "iosys",
+      "name": "iPhone 16 Plus",
+      "capacity": "256GB",
+      "price_jpy": 115000,
+      "source_url": "https://k-tai-iosys.com/pricelist/smartphone/iphone/"
+    },
+    {
+      "site": "iosys",
+      "name": "iPhone 16 Plus",
+      "capacity": "512GB",
+      "price_jpy": 131000,
+      "source_url": "https://k-tai-iosys.com/pricelist/smartphone/iphone/"
+    },
+    {
+      "site": "iosys",
+      "name": "iPhone 16",
+      "capacity": "128GB",
+      "price_jpy": 95000,
+      "source_url": "https://k-tai-iosys.com/pricelist/smartphone/iphone/"
+    },
+    {
+      "site": "iosys",
+      "name": "iPhone 16",
+      "capacity": "256GB",
+      "price_jpy": 108000,
+      "source_url": "https://k-tai-iosys.com/pricelist/smartphone/iphone/"
+    },
+    {
+      "site": "iosys",
+      "name": "iPhone 16",
+      "capacity": "512GB",
+      "price_jpy": 126000,
+      "source_url": "https://k-tai-iosys.com/pricelist/smartphone/iphone/"
+    },
+    {
+      "site": "iosys",
+      "name": "iPhone 15 Pro Max",
+      "capacity": "256GB",
+      "price_jpy": 123000,
+      "source_url": "https://k-tai-iosys.com/pricelist/smartphone/iphone/"
+    },
+    {
+      "site": "iosys",
+      "name": "iPhone 15 Pro Max",
+      "capacity": "512GB",
+      "price_jpy": 128000,
+      "source_url": "https://k-tai-iosys.com/pricelist/smartphone/iphone/"
+    },
+    {
+      "site": "iosys",
+      "name": "iPhone 15 Pro Max",
+      "capacity": "1TB",
+      "price_jpy": 134000,
+      "source_url": "https://k-tai-iosys.com/pricelist/smartphone/iphone/"
+    },
+    {
+      "site": "iosys",
+      "name": "iPhone 15 Pro",
+      "capacity": "128GB",
+      "price_jpy": 92000,
+      "source_url": "https://k-tai-iosys.com/pricelist/smartphone/iphone/"
+    },
+    {
+      "site": "iosys",
+      "name": "iPhone 15 Pro",
+      "capacity": "256GB",
+      "price_jpy": 101000,
+      "source_url": "https://k-tai-iosys.com/pricelist/smartphone/iphone/"
+    },
+    {
+      "site": "iosys",
+      "name": "iPhone 15 Pro",
+      "capacity": "512GB",
+      "price_jpy": 112000,
+      "source_url": "https://k-tai-iosys.com/pricelist/smartphone/iphone/"
+    },
+    {
+      "site": "iosys",
+      "name": "iPhone 15 Pro",
+      "capacity": "1TB",
+      "price_jpy": 123000,
+      "source_url": "https://k-tai-iosys.com/pricelist/smartphone/iphone/"
+    },
+    {
+      "site": "iosys",
+      "name": "iPhone 15 Plus",
+      "capacity": "128GB",
+      "price_jpy": 74000,
+      "source_url": "https://k-tai-iosys.com/pricelist/smartphone/iphone/"
+    },
+    {
+      "site": "iosys",
+      "name": "iPhone 15 Plus",
+      "capacity": "256GB",
+      "price_jpy": 84000,
+      "source_url": "https://k-tai-iosys.com/pricelist/smartphone/iphone/"
+    },
+    {
+      "site": "iosys",
+      "name": "iPhone 15 Plus",
+      "capacity": "512GB",
+      "price_jpy": 94000,
+      "source_url": "https://k-tai-iosys.com/pricelist/smartphone/iphone/"
+    },
+    {
+      "site": "iosys",
+      "name": "iPhone 15",
+      "capacity": "128GB",
+      "price_jpy": 79000,
+      "source_url": "https://k-tai-iosys.com/pricelist/smartphone/iphone/"
+    },
+    {
+      "site": "iosys",
+      "name": "iPhone 15",
+      "capacity": "256GB",
+      "price_jpy": 84000,
+      "source_url": "https://k-tai-iosys.com/pricelist/smartphone/iphone/"
+    },
+    {
+      "site": "iosys",
+      "name": "iPhone 15",
+      "capacity": "512GB",
+      "price_jpy": 94000,
+      "source_url": "https://k-tai-iosys.com/pricelist/smartphone/iphone/"
+    },
+    {
+      "site": "mobile_mix",
+      "name": "iPhone 17 Pro Max",
+      "capacity": "256GB",
+      "price_jpy": 217000,
+      "source_url": "https://mobile-mix.jp/"
+    },
+    {
+      "site": "mobile_mix",
+      "name": "iPhone 17 Pro Max",
+      "capacity": "512GB",
+      "price_jpy": 251000,
+      "source_url": "https://mobile-mix.jp/"
+    },
+    {
+      "site": "mobile_mix",
+      "name": "iPhone 17 Pro Max",
+      "capacity": "1TB",
+      "price_jpy": 272500,
+      "source_url": "https://mobile-mix.jp/"
+    },
+    {
+      "site": "mobile_mix",
+      "name": "iPhone 17 Pro Max",
+      "capacity": "2TB",
+      "price_jpy": 303000,
+      "source_url": "https://mobile-mix.jp/"
+    },
+    {
+      "site": "mobile_mix",
+      "name": "iPhone 17 Pro",
+      "capacity": "256GB",
+      "price_jpy": 196500,
+      "source_url": "https://mobile-mix.jp/"
+    },
+    {
+      "site": "mobile_mix",
+      "name": "iPhone 17 Pro",
+      "capacity": "512GB",
+      "price_jpy": 223500,
+      "source_url": "https://mobile-mix.jp/"
+    },
+    {
+      "site": "mobile_mix",
+      "name": "iPhone 17 Pro",
+      "capacity": "1TB",
+      "price_jpy": 252000,
+      "source_url": "https://mobile-mix.jp/"
+    },
+    {
+      "site": "mobile_mix",
+      "name": "iPhone Air",
+      "capacity": "256GB",
+      "price_jpy": 132000,
+      "source_url": "https://mobile-mix.jp/"
+    },
+    {
+      "site": "mobile_mix",
+      "name": "iPhone Air",
+      "capacity": "512GB",
+      "price_jpy": 150000,
+      "source_url": "https://mobile-mix.jp/"
+    },
+    {
+      "site": "mobile_mix",
+      "name": "iPhone 17",
+      "capacity": "256GB",
+      "price_jpy": 117700,
+      "source_url": "https://mobile-mix.jp/"
+    },
+    {
+      "site": "mobile_mix",
+      "name": "iPhone 17",
+      "capacity": "512GB",
+      "price_jpy": 145000,
+      "source_url": "https://mobile-mix.jp/"
+    },
+    {
+      "site": "mobile_mix",
+      "name": "iPhone 17e",
+      "capacity": "256GB",
+      "price_jpy": 87000,
+      "source_url": "https://mobile-mix.jp/"
+    },
+    {
+      "site": "mobile_mix",
+      "name": "iPhone 17e",
+      "capacity": "512GB",
+      "price_jpy": 117000,
+      "source_url": "https://mobile-mix.jp/"
+    },
+    {
+      "site": "ichome",
+      "name": "iPhone 17 Pro Max",
+      "capacity": "256GB",
+      "price_jpy": 217200,
+      "source_url": "https://www.1-chome.com/mobile"
+    },
+    {
+      "site": "ichome",
+      "name": "iPhone 17 Pro Max",
+      "capacity": "512GB",
+      "price_jpy": 251700,
+      "source_url": "https://www.1-chome.com/mobile"
+    },
+    {
+      "site": "ichome",
+      "name": "iPhone 17 Pro Max",
+      "capacity": "1TB",
+      "price_jpy": 273200,
+      "source_url": "https://www.1-chome.com/mobile"
+    },
+    {
+      "site": "ichome",
+      "name": "iPhone 17 Pro Max",
+      "capacity": "2TB",
+      "price_jpy": 303000,
+      "source_url": "https://www.1-chome.com/mobile"
+    },
+    {
+      "site": "ichome",
+      "name": "iPhone 17 Pro",
+      "capacity": "256GB",
+      "price_jpy": 197200,
+      "source_url": "https://www.1-chome.com/mobile"
+    },
+    {
+      "site": "ichome",
+      "name": "iPhone 17 Pro",
+      "capacity": "512GB",
+      "price_jpy": 224200,
+      "source_url": "https://www.1-chome.com/mobile"
+    },
+    {
+      "site": "ichome",
+      "name": "iPhone 17 Pro",
+      "capacity": "1TB",
+      "price_jpy": 252700,
+      "source_url": "https://www.1-chome.com/mobile"
+    },
+    {
+      "site": "ichome",
+      "name": "iPhone 17",
+      "capacity": "256GB",
+      "price_jpy": 118700,
+      "source_url": "https://www.1-chome.com/mobile"
+    },
+    {
+      "site": "ichome",
+      "name": "iPhone 17",
+      "capacity": "512GB",
+      "price_jpy": 147500,
+      "source_url": "https://www.1-chome.com/mobile"
+    },
+    {
+      "site": "ichome",
+      "name": "iPhone Air",
+      "capacity": "256GB",
+      "price_jpy": 134000,
+      "source_url": "https://www.1-chome.com/mobile"
+    },
+    {
+      "site": "ichome",
+      "name": "iPhone Air",
+      "capacity": "512GB",
+      "price_jpy": 153000,
+      "source_url": "https://www.1-chome.com/mobile"
+    },
+    {
+      "site": "ichome",
+      "name": "iPhone Air",
+      "capacity": "1TB",
+      "price_jpy": 164000,
+      "source_url": "https://www.1-chome.com/mobile"
+    },
+    {
+      "site": "ichome",
+      "name": "iPhone 17e",
+      "capacity": "256GB",
+      "price_jpy": 87500,
+      "source_url": "https://www.1-chome.com/mobile"
+    },
+    {
+      "site": "ichome",
+      "name": "iPhone 17e",
+      "capacity": "512GB",
+      "price_jpy": 117500,
+      "source_url": "https://www.1-chome.com/mobile"
+    },
+    {
+      "site": "ichome",
+      "name": "iPhone 16 Pro",
+      "capacity": "128GB",
+      "price_jpy": 159000,
+      "source_url": "https://www.1-chome.com/mobile"
+    },
+    {
+      "site": "ichome",
+      "name": "iPhone 16 Pro",
+      "capacity": "256GB",
+      "price_jpy": 178500,
+      "source_url": "https://www.1-chome.com/mobile"
+    },
+    {
+      "site": "ichome",
+      "name": "iPhone 16 Pro",
+      "capacity": "512GB",
+      "price_jpy": 202500,
+      "source_url": "https://www.1-chome.com/mobile"
+    },
+    {
+      "site": "ichome",
+      "name": "iPhone 16 Pro",
+      "capacity": "1TB",
+      "price_jpy": 219000,
+      "source_url": "https://www.1-chome.com/mobile"
+    },
+    {
+      "site": "ichome",
+      "name": "iPhone 16 Pro Max",
+      "capacity": "256GB",
+      "price_jpy": 188000,
+      "source_url": "https://www.1-chome.com/mobile"
+    },
+    {
+      "site": "ichome",
+      "name": "iPhone 16 Pro Max",
+      "capacity": "512GB",
+      "price_jpy": 213500,
+      "source_url": "https://www.1-chome.com/mobile"
+    },
+    {
+      "site": "ichome",
+      "name": "iPhone 16 Pro Max",
+      "capacity": "1TB",
+      "price_jpy": 242500,
+      "source_url": "https://www.1-chome.com/mobile"
+    },
+    {
+      "site": "ichome",
+      "name": "iPhone 16 Plus",
+      "capacity": "128GB",
+      "price_jpy": 110500,
+      "source_url": "https://www.1-chome.com/mobile"
+    },
+    {
+      "site": "ichome",
+      "name": "iPhone 16 Plus",
+      "capacity": "256GB",
+      "price_jpy": 123500,
+      "source_url": "https://www.1-chome.com/mobile"
+    },
+    {
+      "site": "ichome",
+      "name": "iPhone 16 Plus",
+      "capacity": "512GB",
+      "price_jpy": 130500,
+      "source_url": "https://www.1-chome.com/mobile"
+    }
+  ]
+}

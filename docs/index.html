@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>iPhone転売 価格・利益・マイル チェッカー</title>
+<meta name="description" content="Apple Store現行販売iPhoneのSIMフリー版について、3買取サイトの未使用品買取価格と利益・取得マイル数を一覧表示します。">
+<link rel="stylesheet" href="https://cdn.datatables.net/2.0.8/css/dataTables.dataTables.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>iPhone転売 価格・利益・マイル チェッカー</h1>
+  <div class="meta">
+    <span>最終更新: <strong id="fetched-at">読み込み中…</strong></span>
+    <form id="rate-form" class="rate-form">
+      <label>マイル還元率（%）
+        <input type="number" id="rate-input" step="0.1" min="0" value="1.0">
+      </label>
+      <button type="submit">再計算</button>
+    </form>
+  </div>
+</header>
+
+<main>
+  <div id="status" class="status"></div>
+  <div id="table-wrapper" style="display:none">
+    <table id="result-table" class="display compact" style="width:100%">
+      <thead>
+        <tr>
+          <th>機種</th>
+          <th>容量</th>
+          <th>Apple定価</th>
+          <th>iosys</th>
+          <th>mobile-mix</th>
+          <th>1丁目</th>
+          <th>最高買取</th>
+          <th>利益</th>
+          <th>取得マイル</th>
+        </tr>
+      </thead>
+      <tbody id="tbody"></tbody>
+    </table>
+  </div>
+</main>
+
+<footer>
+  <small>
+    定価＝Apple Store（SIMフリー）、買取＝各サイト掲載の未使用品価格。手数料・送料・状態減額は含みません。
+    データは1日2回（12:00 / 19:00 JST）自動更新されます。
+    出典: <a href="https://www.apple.com/jp/shop/buy-iphone" target="_blank" rel="noopener">Apple</a> /
+    <a href="https://k-tai-iosys.com/pricelist/smartphone/iphone/" target="_blank" rel="noopener">iosys</a> /
+    <a href="https://mobile-mix.jp/" target="_blank" rel="noopener">mobile-mix</a> /
+    <a href="https://www.1-chome.com/mobile" target="_blank" rel="noopener">1丁目</a>
+  </small>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.datatables.net/2.0.8/js/dataTables.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

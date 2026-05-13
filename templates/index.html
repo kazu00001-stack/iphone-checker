@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>iPhone転売 価格・利益・マイル チェッカー</title>
+<link rel="stylesheet" href="https://cdn.datatables.net/2.0.8/css/dataTables.dataTables.min.css">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<header>
+  <h1>iPhone転売 価格・利益・マイル チェッカー</h1>
+  <div class="meta">
+    <span>最終更新: <strong>{{ fetched_at or '未取得' }}</strong></span>
+    <form method="get" action="/" class="rate-form">
+      <label>マイル還元率（%）
+        <input type="number" name="rate" step="0.1" min="0" value="{{ '%.2f' % mile_rate }}">
+      </label>
+      <button type="submit">再計算</button>
+    </form>
+    <form method="post" action="/refresh" class="refresh-form" onsubmit="onRefresh(this)">
+      <input type="hidden" name="rate" value="{{ '%.2f' % mile_rate }}">
+      <button type="submit" id="refresh-btn">価格を更新（数十秒）</button>
+    </form>
+  </div>
+</header>
+
+<main>
+{% if not rows %}
+  <p class="empty">まだデータがありません。右上の「価格を更新」を押してください。</p>
+{% else %}
+  <table id="result-table" class="display compact" style="width:100%">
+    <thead>
+      <tr>
+        <th>機種</th>
+        <th>容量</th>
+        <th>Apple定価</th>
+        {% for s in sites %}<th>{{ site_labels[s] }}</th>{% endfor %}
+        <th>最高買取</th>
+        <th>利益</th>
+        <th>取得マイル</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for r in rows %}
+      <tr>
+        <td>{{ r.key.name }}</td>
+        <td>{{ r.key.capacity }}</td>
+        <td class="num">
+          ¥{{ "{:,}".format(r.apple_price) }}{% if r.apple_is_fallback %}<span class="badge">推定</span>{% endif %}
+        </td>
+        {% for s in sites %}
+          <td class="num">{% if s in r.quotes %}¥{{ "{:,}".format(r.quotes[s]) }}{% else %}-{% endif %}</td>
+        {% endfor %}
+        <td class="num">
+          {% if r.best_price is not none %}
+            ¥{{ "{:,}".format(r.best_price) }} <span class="site">({{ site_labels.get(r.best_site, r.best_site) }})</span>
+          {% else %}-{% endif %}
+        </td>
+        <td class="num {% if r.profit is not none %}{% if r.profit >= 0 %}profit-pos{% else %}profit-neg{% endif %}{% endif %}"
+            data-order="{{ r.profit if r.profit is not none else -9999999 }}">
+          {% if r.profit is not none %}
+            {% if r.profit >= 0 %}+{% endif %}¥{{ "{:,}".format(r.profit) }}
+          {% else %}-{% endif %}
+        </td>
+        <td class="num">{{ "{:,}".format(r.miles) }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+{% endif %}
+</main>
+
+<footer>
+  <small>定価＝Apple Store（SIMフリー）。買取＝各サイト掲載の未使用品価格。手数料・送料・状態減額は含みません。</small>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.datatables.net/2.0.8/js/dataTables.min.js"></script>
+<script>
+  $(function () {
+    if ($('#result-table').length) {
+      $('#result-table').DataTable({
+        pageLength: 50,
+        order: [[7, 'desc']],
+        language: { url: 'https://cdn.datatables.net/plug-ins/2.0.8/i18n/ja.json' }
+      });
+    }
+  });
+
+  function onRefresh(form) {
+    const btn = document.getElementById('refresh-btn');
+    if (btn) { btn.disabled = true; btn.textContent = '更新中…（30〜60秒）'; }
+    return true;
+  }
+</script>
+</body>
+</html>

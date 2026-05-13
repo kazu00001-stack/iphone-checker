@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+output/*.json
+!output/.gitkeep
+.DS_Store
+.playwright/
+pw-browsers/
+dist/
+build_artifacts/
+*.zip

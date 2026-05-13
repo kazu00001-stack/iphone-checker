@@ -1,0 +1,76 @@
+name: Scrape and publish to Pages
+
+on:
+  schedule:
+    - cron: '0 3 * * *'    # 12:00 JST
+    - cron: '0 10 * * *'   # 19:00 JST
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'docs/**'
+      - 'scripts/scrape_to_json.py'
+      - 'scrapers/**'
+      - 'core/**'
+      - 'config.yaml'
+      - '.github/workflows/scheduled-scrape.yml'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Install Playwright Chromium
+        run: python -m playwright install --with-deps chromium
+
+      - name: Run scraper
+        run: python scripts/scrape_to_json.py
+
+      - name: Commit updated data.json
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet docs/data.json; then
+            echo "no change to data.json"
+          else
+            git add docs/data.json
+            git commit -m "chore: scheduled data update ($(date -u +%FT%TZ))"
+            git push
+          fi
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+  deploy:
+    needs: scrape
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

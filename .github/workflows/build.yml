@@ -1,0 +1,70 @@
+name: Build cross-platform binaries
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: macos-latest
+            artifact_name: iPhone-checker-mac
+            bundle_path: dist/iPhone転売価格チェッカー.app
+          - os: windows-latest
+            artifact_name: iPhone-checker-windows
+            bundle_path: dist/iPhone転売価格チェッカー
+    runs-on: ${{ matrix.os }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install runtime + build dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install -r build-requirements.txt
+
+      - name: Install Playwright Chromium into local folder
+        shell: bash
+        run: |
+          export PLAYWRIGHT_BROWSERS_PATH="${{ github.workspace }}/pw-browsers"
+          python -m playwright install chromium
+
+      - name: Run PyInstaller build
+        shell: bash
+        run: python build/build.py --skip-chromium-download
+
+      - name: Zip artifact (macOS)
+        if: runner.os == 'macOS'
+        run: |
+          cd dist
+          zip -ry "../${{ matrix.artifact_name }}.zip" "iPhone転売価格チェッカー.app"
+
+      - name: Zip artifact (Windows)
+        if: runner.os == 'Windows'
+        shell: pwsh
+        run: |
+          Compress-Archive -Path "dist/iPhone転売価格チェッカー" -DestinationPath "${{ matrix.artifact_name }}.zip"
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.artifact_name }}
+          path: ${{ matrix.artifact_name }}.zip
+          retention-days: 30
+
+      - name: Attach to release (if tag push)
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: ${{ matrix.artifact_name }}.zip
