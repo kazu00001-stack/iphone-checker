@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-14T15:33:43+09:00",
+  "fetched_at": "2026-05-14T20:49:48+09:00",
   "apple_models": [
     {
       "name": "iPhone 17 Pro Max",
@@ -427,7 +427,7 @@
       "site": "mobile_mix",
       "name": "iPhone 17 Pro Max",
       "capacity": "256GB",
-      "price_jpy": 216500,
+      "price_jpy": 216000,
       "source_url": "https://mobile-mix.jp/"
     },
     {
@@ -518,7 +518,7 @@
       "site": "ichome",
       "name": "iPhone 17 Pro Max",
       "capacity": "256GB",
-      "price_jpy": 216700,
+      "price_jpy": 216000,
       "source_url": "https://www.1-chome.com/mobile"
     },
     {
@@ -546,7 +546,7 @@
       "site": "ichome",
       "name": "iPhone 17 Pro",
       "capacity": "256GB",
-      "price_jpy": 196700,
+      "price_jpy": 196000,
       "source_url": "https://www.1-chome.com/mobile"
     },
     {
