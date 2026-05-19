@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-18T22:43:19+09:00",
+  "fetched_at": "2026-05-19T15:55:06+09:00",
   "apple_models": [
     {
       "name": "iPhone 17 Pro Max",
@@ -434,7 +434,7 @@
       "site": "mobile_mix",
       "name": "iPhone 17 Pro Max",
       "capacity": "512GB",
-      "price_jpy": 248000,
+      "price_jpy": 246000,
       "source_url": "https://mobile-mix.jp/"
     },
     {
@@ -448,7 +448,7 @@
       "site": "mobile_mix",
       "name": "iPhone 17 Pro Max",
       "capacity": "2TB",
-      "price_jpy": 300000,
+      "price_jpy": 300700,
       "source_url": "https://mobile-mix.jp/"
     },
     {
@@ -476,14 +476,14 @@
       "site": "mobile_mix",
       "name": "iPhone Air",
       "capacity": "256GB",
-      "price_jpy": 135000,
+      "price_jpy": 136000,
       "source_url": "https://mobile-mix.jp/"
     },
     {
       "site": "mobile_mix",
       "name": "iPhone Air",
       "capacity": "512GB",
-      "price_jpy": 153000,
+      "price_jpy": 155000,
       "source_url": "https://mobile-mix.jp/"
     },
     {
@@ -497,7 +497,7 @@
       "site": "mobile_mix",
       "name": "iPhone 17",
       "capacity": "512GB",
-      "price_jpy": 147500,
+      "price_jpy": 148000,
       "source_url": "https://mobile-mix.jp/"
     },
     {
@@ -525,7 +525,7 @@
       "site": "ichome",
       "name": "iPhone 17 Pro Max",
       "capacity": "512GB",
-      "price_jpy": 249000,
+      "price_jpy": 246000,
       "source_url": "https://www.1-chome.com/mobile"
     },
     {
