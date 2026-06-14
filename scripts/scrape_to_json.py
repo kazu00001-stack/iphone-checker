@@ -32,6 +32,7 @@ from scrapers.base import open_browser  # noqa: E402
 from scrapers.ichome import scrape_ichome  # noqa: E402
 from scrapers.iosys import scrape_iosys  # noqa: E402
 from scrapers.mobile_mix import scrape_mobile_mix  # noqa: E402
+from scrapers.somurie import scrape_somurie  # noqa: E402
 
 
 CONFIG_PATH = ROOT / "config.yaml"
@@ -56,6 +57,7 @@ async def run(cfg: dict) -> dict:
     iosys_cfg = cfg["scrapers"]["iosys"]
     mobile_mix_cfg = cfg["scrapers"]["mobile_mix"]
     ichome_cfg = cfg["scrapers"]["ichome"]
+    somurie_cfg = cfg["scrapers"]["somurie"]
 
     async with open_browser() as context:
         results = await asyncio.gather(
@@ -63,6 +65,7 @@ async def run(cfg: dict) -> dict:
             scrape_iosys(context, iosys_cfg["url"]) if iosys_cfg.get("enabled") else asyncio.sleep(0, result=[]),
             scrape_mobile_mix(context, mobile_mix_cfg["candidate_urls"]) if mobile_mix_cfg.get("enabled") else asyncio.sleep(0, result=[]),
             scrape_ichome(context, ichome_cfg["candidate_urls"]) if ichome_cfg.get("enabled") else asyncio.sleep(0, result=[]),
+            scrape_somurie(context, somurie_cfg["candidate_urls"]) if somurie_cfg.get("enabled") else asyncio.sleep(0, result=[]),
             return_exceptions=True,
         )
 
@@ -70,6 +73,7 @@ async def run(cfg: dict) -> dict:
     iosys_quotes = _unwrap(results[1], [])
     mm_quotes = _unwrap(results[2], [])
     ichome_quotes = _unwrap(results[3], [])
+    somurie_quotes = _unwrap(results[4], [])
 
     return {
         "fetched_at": datetime.now(JST).isoformat(timespec="seconds"),
@@ -91,7 +95,7 @@ async def run(cfg: dict) -> dict:
                 "price_jpy": q.price_jpy,
                 "source_url": q.source_url,
             }
-            for q in iosys_quotes + mm_quotes + ichome_quotes
+            for q in iosys_quotes + mm_quotes + ichome_quotes + somurie_quotes
         ],
     }
 

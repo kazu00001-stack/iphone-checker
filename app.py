@@ -59,6 +59,7 @@ from scrapers.base import open_browser  # noqa: E402
 from scrapers.ichome import scrape_ichome  # noqa: E402
 from scrapers.iosys import scrape_iosys  # noqa: E402
 from scrapers.mobile_mix import scrape_mobile_mix  # noqa: E402
+from scrapers.somurie import scrape_somurie  # noqa: E402
 
 
 load_dotenv()
@@ -99,6 +100,7 @@ async def run_all_scrapers(cfg: dict) -> dict:
     iosys_cfg = cfg["scrapers"]["iosys"]
     mobile_mix_cfg = cfg["scrapers"]["mobile_mix"]
     ichome_cfg = cfg["scrapers"]["ichome"]
+    somurie_cfg = cfg["scrapers"]["somurie"]
 
     async with open_browser() as context:
         tasks = []
@@ -115,8 +117,12 @@ async def run_all_scrapers(cfg: dict) -> dict:
             tasks.append(scrape_ichome(context, ichome_cfg["candidate_urls"]))
         else:
             tasks.append(asyncio.sleep(0, result=[]))
+        if somurie_cfg.get("enabled"):
+            tasks.append(scrape_somurie(context, somurie_cfg["candidate_urls"]))
+        else:
+            tasks.append(asyncio.sleep(0, result=[]))
 
-        apple_models, iosys_quotes, mm_quotes, ichome_quotes = await asyncio.gather(
+        apple_models, iosys_quotes, mm_quotes, ichome_quotes, somurie_quotes = await asyncio.gather(
             *tasks, return_exceptions=True
         )
 
@@ -124,6 +130,7 @@ async def run_all_scrapers(cfg: dict) -> dict:
     iosys_quotes = _unwrap(iosys_quotes, [])
     mm_quotes = _unwrap(mm_quotes, [])
     ichome_quotes = _unwrap(ichome_quotes, [])
+    somurie_quotes = _unwrap(somurie_quotes, [])
 
     payload = {
         "fetched_at": datetime.now().isoformat(timespec="seconds"),
@@ -145,7 +152,7 @@ async def run_all_scrapers(cfg: dict) -> dict:
                 "price_jpy": q.price_jpy,
                 "source_url": q.source_url,
             }
-            for q in iosys_quotes + mm_quotes + ichome_quotes
+            for q in iosys_quotes + mm_quotes + ichome_quotes + somurie_quotes
         ],
     }
     save_latest(payload)
@@ -196,11 +203,12 @@ def index():
         rows=rows,
         mile_rate=mile_rate,
         fetched_at=(payload or {}).get("fetched_at"),
-        sites=["iosys", "mobile_mix", "ichome"],
+        sites=["iosys", "mobile_mix", "ichome", "somurie"],
         site_labels={
             "iosys": "iosys",
             "mobile_mix": "mobile-mix",
             "ichome": "1丁目",
+            "somurie": "ソムリエ",
         },
     )
 

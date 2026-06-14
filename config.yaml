@@ -62,3 +62,7 @@ scrapers:
     enabled: true
     candidate_urls:
       - "https://www.1-chome.com/mobile"
+  somurie:
+    enabled: true
+    candidate_urls:
+      - "https://somurie-kaitori.com/products?category=1&subcategory=4"

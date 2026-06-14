@@ -1,8 +1,8 @@
 (function () {
   "use strict";
 
-  const SITES = ["iosys", "mobile_mix", "ichome"];
-  const SITE_LABELS = { iosys: "iosys", mobile_mix: "mobile-mix", ichome: "1丁目" };
+  const SITES = ["iosys", "mobile_mix", "ichome", "somurie"];
+  const SITE_LABELS = { iosys: "iosys", mobile_mix: "mobile-mix", ichome: "1丁目", somurie: "ソムリエ" };
 
   const yen = (n) => "¥" + n.toLocaleString("ja-JP");
   const signedYen = (n) => (n >= 0 ? "+" : "") + yen(n);
@@ -122,7 +122,7 @@
     }
     $("#result-table").DataTable({
       pageLength: 50,
-      order: [[7, "desc"]],
+      order: [[8, "desc"]],
       language: { url: "https://cdn.datatables.net/plug-ins/2.0.8/i18n/ja.json" },
     });
   }

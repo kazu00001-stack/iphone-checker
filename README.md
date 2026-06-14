@@ -5,8 +5,9 @@ Apple Storeで現行販売中の**SIMフリー版iPhone**について、
 - mobile-mix.jp
 - k-tai-iosys.com
 - 1-chome.com
+- somurie-kaitori.com（買取ソムリエ）
 
-の3買取サイトから**未使用品**の買取相場を取得し、Apple定価との差額（**利益額**）と取得**マイル数**を一覧表示するローカルWebアプリです。
+の4買取サイトから**未使用品**の買取相場を取得し、Apple定価との差額（**利益額**）と取得**マイル数**を一覧表示するローカルWebアプリです。
 
 ---
 
@@ -117,7 +118,7 @@ iPhone転売価格チェッカー/
 │   ├── build.yml           Mac/Windowsバイナリ配布用CI
 │   └── scheduled-scrape.yml ★ Web版の定期スクレイピング+Pagesデプロイ
 ├── core/                   models / normalize / compare
-├── scrapers/               apple / iosys / mobile_mix / ichome
+├── scrapers/               apple / iosys / mobile_mix / ichome / somurie
 ├── templates/index.html    ローカルFlask版のテンプレート
 ├── static/style.css
 ├── output/                 ローカル実行時のlatest.json置き場
