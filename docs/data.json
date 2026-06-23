@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-23T15:57:11+09:00",
+  "fetched_at": "2026-06-23T21:30:52+09:00",
   "apple_models": [
     {
       "name": "iPhone 17 Pro Max",
@@ -462,7 +462,7 @@
       "site": "mobile_mix",
       "name": "iPhone 17 Pro",
       "capacity": "512GB",
-      "price_jpy": 213500,
+      "price_jpy": 212000,
       "source_url": "https://mobile-mix.jp/"
     },
     {
