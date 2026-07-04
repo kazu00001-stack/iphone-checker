@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-03T21:06:54+09:00",
+  "fetched_at": "2026-07-04T15:26:37+09:00",
   "apple_models": [
     {
       "name": "iPhone 17 Pro Max",
@@ -427,21 +427,21 @@
       "site": "mobile_mix",
       "name": "iPhone 17 Pro Max",
       "capacity": "256GB",
-      "price_jpy": 193000,
+      "price_jpy": 192000,
       "source_url": "https://mobile-mix.jp/"
     },
     {
       "site": "mobile_mix",
       "name": "iPhone 17 Pro Max",
       "capacity": "512GB",
-      "price_jpy": 228000,
+      "price_jpy": 227000,
       "source_url": "https://mobile-mix.jp/"
     },
     {
       "site": "mobile_mix",
       "name": "iPhone 17 Pro Max",
       "capacity": "1TB",
-      "price_jpy": 263000,
+      "price_jpy": 262000,
       "source_url": "https://mobile-mix.jp/"
     },
     {
@@ -462,7 +462,7 @@
       "site": "mobile_mix",
       "name": "iPhone 17 Pro",
       "capacity": "512GB",
-      "price_jpy": 213000,
+      "price_jpy": 212000,
       "source_url": "https://mobile-mix.jp/"
     },
     {
@@ -546,7 +546,7 @@
       "site": "ichome",
       "name": "iPhone 17 Pro",
       "capacity": "256GB",
-      "price_jpy": 178000,
+      "price_jpy": 177000,
       "source_url": "https://www.1-chome.com/mobile"
     },
     {
@@ -686,7 +686,7 @@
       "site": "somurie",
       "name": "iPhone 17",
       "capacity": "256GB",
-      "price_jpy": 130000,
+      "price_jpy": 130500,
       "source_url": "https://somurie-kaitori.com/products?category=1&subcategory=3"
     },
     {
@@ -700,7 +700,7 @@
       "site": "somurie",
       "name": "iPhone 17 Pro",
       "capacity": "256GB",
-      "price_jpy": 179000,
+      "price_jpy": 178500,
       "source_url": "https://somurie-kaitori.com/products?category=1&subcategory=4"
     },
     {
@@ -714,14 +714,14 @@
       "site": "somurie",
       "name": "iPhone 17 Pro Max",
       "capacity": "1TB",
-      "price_jpy": 263500,
+      "price_jpy": 259500,
       "source_url": "https://somurie-kaitori.com/products?category=1&subcategory=5"
     },
     {
       "site": "somurie",
       "name": "iPhone 17 Pro Max",
       "capacity": "256GB",
-      "price_jpy": 194500,
+      "price_jpy": 193500,
       "source_url": "https://somurie-kaitori.com/products?category=1&subcategory=5"
     },
     {
