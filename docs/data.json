@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-11T14:46:53+09:00",
+  "fetched_at": "2026-07-11T20:00:50+09:00",
   "apple_models": [
     {
       "name": "iPhone 17 Pro Max",
@@ -182,7 +182,7 @@
       "site": "mobile_mix",
       "name": "iPhone Air",
       "capacity": "512GB",
-      "price_jpy": 150000,
+      "price_jpy": 151000,
       "source_url": "https://mobile-mix.jp/"
     },
     {
@@ -217,7 +217,7 @@
       "site": "ichome",
       "name": "iPhone 17 Pro Max",
       "capacity": "256GB",
-      "price_jpy": 191500,
+      "price_jpy": 192000,
       "source_url": "https://www.1-chome.com/mobile"
     },
     {
@@ -280,7 +280,7 @@
       "site": "ichome",
       "name": "iPhone Air",
       "capacity": "256GB",
-      "price_jpy": 136500,
+      "price_jpy": 136000,
       "source_url": "https://www.1-chome.com/mobile"
     },
     {
@@ -392,14 +392,14 @@
       "site": "somurie",
       "name": "iPhone 17 Pro",
       "capacity": "256GB",
-      "price_jpy": 177000,
+      "price_jpy": 177500,
       "source_url": "https://somurie-kaitori.com/products?category=1&subcategory=4"
     },
     {
       "site": "somurie",
       "name": "iPhone 17 Pro",
       "capacity": "512GB",
-      "price_jpy": 212000,
+      "price_jpy": 212500,
       "source_url": "https://somurie-kaitori.com/products?category=1&subcategory=4"
     },
     {
