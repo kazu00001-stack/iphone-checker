@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-18T13:04:28+09:00",
+  "fetched_at": "2026-07-18T19:30:11+09:00",
   "apple_models": [
     {
       "name": "iPhone 17 Pro Max",
@@ -175,14 +175,14 @@
       "site": "mobile_mix",
       "name": "iPhone Air",
       "capacity": "256GB",
-      "price_jpy": 137000,
+      "price_jpy": 139500,
       "source_url": "https://mobile-mix.jp/"
     },
     {
       "site": "mobile_mix",
       "name": "iPhone Air",
       "capacity": "512GB",
-      "price_jpy": 152000,
+      "price_jpy": 154500,
       "source_url": "https://mobile-mix.jp/"
     },
     {
