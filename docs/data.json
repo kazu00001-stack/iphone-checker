@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-31T19:55:13+09:00",
+  "fetched_at": "2026-08-01T13:13:02+09:00",
   "apple_models": [
     {
       "name": "iPhone 17 Pro Max",
@@ -126,77 +126,77 @@
       "site": "mobile_mix",
       "name": "iPhone 17 Pro Max",
       "capacity": "256GB",
-      "price_jpy": 197000,
+      "price_jpy": 194000,
       "source_url": "https://mobile-mix.jp/"
     },
     {
       "site": "mobile_mix",
       "name": "iPhone 17 Pro Max",
       "capacity": "512GB",
-      "price_jpy": 230000,
+      "price_jpy": 226000,
       "source_url": "https://mobile-mix.jp/"
     },
     {
       "site": "mobile_mix",
       "name": "iPhone 17 Pro Max",
       "capacity": "1TB",
-      "price_jpy": 259000,
+      "price_jpy": 256000,
       "source_url": "https://mobile-mix.jp/"
     },
     {
       "site": "mobile_mix",
       "name": "iPhone 17 Pro Max",
       "capacity": "2TB",
-      "price_jpy": 300000,
+      "price_jpy": 295000,
       "source_url": "https://mobile-mix.jp/"
     },
     {
       "site": "mobile_mix",
       "name": "iPhone 17 Pro",
       "capacity": "256GB",
-      "price_jpy": 184000,
+      "price_jpy": 181000,
       "source_url": "https://mobile-mix.jp/"
     },
     {
       "site": "mobile_mix",
       "name": "iPhone 17 Pro",
       "capacity": "512GB",
-      "price_jpy": 214000,
+      "price_jpy": 210000,
       "source_url": "https://mobile-mix.jp/"
     },
     {
       "site": "mobile_mix",
       "name": "iPhone 17 Pro",
       "capacity": "1TB",
-      "price_jpy": 241000,
+      "price_jpy": 238000,
       "source_url": "https://mobile-mix.jp/"
     },
     {
       "site": "mobile_mix",
       "name": "iPhone Air",
       "capacity": "256GB",
-      "price_jpy": 135000,
+      "price_jpy": 132000,
       "source_url": "https://mobile-mix.jp/"
     },
     {
       "site": "mobile_mix",
       "name": "iPhone Air",
       "capacity": "512GB",
-      "price_jpy": 151000,
+      "price_jpy": 150000,
       "source_url": "https://mobile-mix.jp/"
     },
     {
       "site": "mobile_mix",
       "name": "iPhone 17",
       "capacity": "256GB",
-      "price_jpy": 138500,
+      "price_jpy": 136000,
       "source_url": "https://mobile-mix.jp/"
     },
     {
       "site": "mobile_mix",
       "name": "iPhone 17",
       "capacity": "512GB",
-      "price_jpy": 161000,
+      "price_jpy": 158000,
       "source_url": "https://mobile-mix.jp/"
     },
     {
@@ -217,70 +217,70 @@
       "site": "ichome",
       "name": "iPhone 17 Pro",
       "capacity": "256GB",
-      "price_jpy": 184000,
+      "price_jpy": 181000,
       "source_url": "https://www.1-chome.com/mobile"
     },
     {
       "site": "ichome",
       "name": "iPhone 17 Pro",
       "capacity": "512GB",
-      "price_jpy": 214000,
+      "price_jpy": 210000,
       "source_url": "https://www.1-chome.com/mobile"
     },
     {
       "site": "ichome",
       "name": "iPhone 17 Pro",
       "capacity": "1TB",
-      "price_jpy": 241000,
+      "price_jpy": 238000,
       "source_url": "https://www.1-chome.com/mobile"
     },
     {
       "site": "ichome",
       "name": "iPhone 17 Pro Max",
       "capacity": "256GB",
-      "price_jpy": 197000,
+      "price_jpy": 194000,
       "source_url": "https://www.1-chome.com/mobile"
     },
     {
       "site": "ichome",
       "name": "iPhone 17 Pro Max",
       "capacity": "512GB",
-      "price_jpy": 230000,
+      "price_jpy": 225000,
       "source_url": "https://www.1-chome.com/mobile"
     },
     {
       "site": "ichome",
       "name": "iPhone 17 Pro Max",
       "capacity": "1TB",
-      "price_jpy": 259000,
+      "price_jpy": 255000,
       "source_url": "https://www.1-chome.com/mobile"
     },
     {
       "site": "ichome",
       "name": "iPhone 17 Pro Max",
       "capacity": "2TB",
-      "price_jpy": 300000,
+      "price_jpy": 294000,
       "source_url": "https://www.1-chome.com/mobile"
     },
     {
       "site": "ichome",
       "name": "iPhone 17",
       "capacity": "256GB",
-      "price_jpy": 138500,
+      "price_jpy": 136000,
       "source_url": "https://www.1-chome.com/mobile"
     },
     {
       "site": "ichome",
       "name": "iPhone 17",
       "capacity": "512GB",
-      "price_jpy": 160000,
+      "price_jpy": 158000,
       "source_url": "https://www.1-chome.com/mobile"
     },
     {
       "site": "ichome",
       "name": "iPhone Air",
       "capacity": "256GB",
-      "price_jpy": 135000,
+      "price_jpy": 134000,
       "source_url": "https://www.1-chome.com/mobile"
     },
     {
@@ -301,14 +301,14 @@
       "site": "ichome",
       "name": "iPhone 17e",
       "capacity": "256GB",
-      "price_jpy": 97000,
+      "price_jpy": 96000,
       "source_url": "https://www.1-chome.com/mobile"
     },
     {
       "site": "ichome",
       "name": "iPhone 17e",
       "capacity": "512GB",
-      "price_jpy": 116000,
+      "price_jpy": 115000,
       "source_url": "https://www.1-chome.com/mobile"
     },
     {
@@ -383,37 +383,30 @@
     },
     {
       "site": "somurie",
-      "name": "iPhone 17",
-      "capacity": "256GB",
-      "price_jpy": 139000,
-      "source_url": "https://somurie-kaitori.com/products?category=1&subcategory=3"
-    },
-    {
-      "site": "somurie",
       "name": "iPhone 17 Pro",
       "capacity": "256GB",
-      "price_jpy": 185000,
+      "price_jpy": 181500,
       "source_url": "https://somurie-kaitori.com/products?category=1&subcategory=4"
     },
     {
       "site": "somurie",
       "name": "iPhone 17 Pro",
       "capacity": "512GB",
-      "price_jpy": 214500,
+      "price_jpy": 211000,
       "source_url": "https://somurie-kaitori.com/products?category=1&subcategory=4"
     },
     {
       "site": "somurie",
       "name": "iPhone 17 Pro Max",
       "capacity": "256GB",
-      "price_jpy": 198000,
+      "price_jpy": 194500,
       "source_url": "https://somurie-kaitori.com/products?category=1&subcategory=5"
     },
     {
       "site": "somurie",
       "name": "iPhone 17 Pro Max",
       "capacity": "512GB",
-      "price_jpy": 231000,
+      "price_jpy": 226500,
       "source_url": "https://somurie-kaitori.com/products?category=1&subcategory=5"
     },
     {
