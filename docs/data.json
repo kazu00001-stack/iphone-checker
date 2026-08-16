@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-15T19:05:45+09:00",
+  "fetched_at": "2026-08-16T12:23:47+09:00",
   "apple_models": [
     {
       "name": "iPhone 17 Pro Max",
@@ -391,15 +391,8 @@
     {
       "site": "somurie",
       "name": "iPhone 17 Pro",
-      "capacity": "1TB",
-      "price_jpy": 238000,
-      "source_url": "https://somurie-kaitori.com/products?category=1&subcategory=4"
-    },
-    {
-      "site": "somurie",
-      "name": "iPhone 17 Pro",
       "capacity": "256GB",
-      "price_jpy": 186500,
+      "price_jpy": 186000,
       "source_url": "https://somurie-kaitori.com/products?category=1&subcategory=4"
     },
     {
@@ -412,15 +405,8 @@
     {
       "site": "somurie",
       "name": "iPhone 17 Pro Max",
-      "capacity": "1TB",
-      "price_jpy": 254500,
-      "source_url": "https://somurie-kaitori.com/products?category=1&subcategory=5"
-    },
-    {
-      "site": "somurie",
-      "name": "iPhone 17 Pro Max",
       "capacity": "256GB",
-      "price_jpy": 198500,
+      "price_jpy": 197000,
       "source_url": "https://somurie-kaitori.com/products?category=1&subcategory=5"
     },
     {
@@ -434,14 +420,21 @@
       "site": "somurie",
       "name": "iPhone Air",
       "capacity": "256GB",
-      "price_jpy": 133000,
+      "price_jpy": 134500,
+      "source_url": "https://somurie-kaitori.com/products?category=1&subcategory=6"
+    },
+    {
+      "site": "somurie",
+      "name": "iPhone Air",
+      "capacity": "512GB",
+      "price_jpy": 148500,
       "source_url": "https://somurie-kaitori.com/products?category=1&subcategory=6"
     },
     {
       "site": "somurie",
       "name": "iPhone 16",
       "capacity": "128GB",
-      "price_jpy": 112000,
+      "price_jpy": 113000,
       "source_url": "https://somurie-kaitori.com/products?category=1&subcategory=18"
     }
   ]
