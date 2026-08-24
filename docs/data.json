@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-23T19:05:36+09:00",
+  "fetched_at": "2026-08-24T12:26:43+09:00",
   "apple_models": [
     {
       "name": "iPhone 17 Pro Max",
@@ -140,7 +140,7 @@
       "site": "mobile_mix",
       "name": "iPhone 17 Pro Max",
       "capacity": "1TB",
-      "price_jpy": 254000,
+      "price_jpy": 254500,
       "source_url": "https://mobile-mix.jp/"
     },
     {
@@ -196,7 +196,7 @@
       "site": "mobile_mix",
       "name": "iPhone 17e",
       "capacity": "256GB",
-      "price_jpy": 98000,
+      "price_jpy": 99000,
       "source_url": "https://mobile-mix.jp/"
     },
     {
