@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-24T12:26:43+09:00",
+  "fetched_at": "2026-08-24T19:15:28+09:00",
   "apple_models": [
     {
       "name": "iPhone 17 Pro Max",
@@ -420,7 +420,7 @@
       "site": "somurie",
       "name": "iPhone 16",
       "capacity": "128GB",
-      "price_jpy": 113500,
+      "price_jpy": 114500,
       "source_url": "https://somurie-kaitori.com/products?category=1&subcategory=18"
     }
   ]
