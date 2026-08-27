@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-26T19:12:51+09:00",
+  "fetched_at": "2026-08-27T13:57:06+09:00",
   "apple_models": [
     {
       "name": "iPhone 17 Pro Max",
@@ -259,7 +259,7 @@
       "site": "ichome",
       "name": "iPhone 17",
       "capacity": "256GB",
-      "price_jpy": 139000,
+      "price_jpy": 138000,
       "source_url": "https://www.1-chome.com/mobile"
     },
     {
@@ -406,7 +406,7 @@
       "site": "somurie",
       "name": "iPhone 17 Pro Max",
       "capacity": "512GB",
-      "price_jpy": 228500,
+      "price_jpy": 229000,
       "source_url": "https://somurie-kaitori.com/products?category=1&subcategory=5"
     },
     {
