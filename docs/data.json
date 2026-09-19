@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-19T12:21:39+09:00",
+  "fetched_at": "2026-09-19T19:08:10+09:00",
   "apple_models": [
     {
       "name": "iPhone 17 Pro Max",
@@ -147,7 +147,7 @@
       "site": "ichome",
       "name": "iPhone 17 Pro Max",
       "capacity": "256GB",
-      "price_jpy": 191000,
+      "price_jpy": 190000,
       "source_url": "https://www.1-chome.com/mobile"
     },
     {
@@ -168,7 +168,7 @@
       "site": "ichome",
       "name": "iPhone 17 Pro Max",
       "capacity": "2TB",
-      "price_jpy": 281500,
+      "price_jpy": 280000,
       "source_url": "https://www.1-chome.com/mobile"
     },
     {
