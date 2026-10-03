@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-03T12:29:54+09:00",
+  "fetched_at": "2026-10-03T19:08:25+09:00",
   "apple_models": [
     {
       "name": "iPhone 17 Pro Max",
@@ -182,28 +182,28 @@
       "site": "ichome",
       "name": "iPhone 17",
       "capacity": "512GB",
-      "price_jpy": 160000,
+      "price_jpy": 158000,
       "source_url": "https://www.1-chome.com/mobile"
     },
     {
       "site": "ichome",
       "name": "iPhone Air",
       "capacity": "256GB",
-      "price_jpy": 135000,
+      "price_jpy": 134000,
       "source_url": "https://www.1-chome.com/mobile"
     },
     {
       "site": "ichome",
       "name": "iPhone Air",
       "capacity": "512GB",
-      "price_jpy": 142000,
+      "price_jpy": 141000,
       "source_url": "https://www.1-chome.com/mobile"
     },
     {
       "site": "ichome",
       "name": "iPhone Air",
       "capacity": "1TB",
-      "price_jpy": 152500,
+      "price_jpy": 152000,
       "source_url": "https://www.1-chome.com/mobile"
     },
     {
