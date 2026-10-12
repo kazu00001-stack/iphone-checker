@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-12T12:36:05+09:00",
+  "fetched_at": "2026-10-12T19:15:47+09:00",
   "apple_models": [
     {
       "name": "iPhone 17 Pro Max",
@@ -189,7 +189,7 @@
       "site": "ichome",
       "name": "iPhone Air",
       "capacity": "256GB",
-      "price_jpy": 134500,
+      "price_jpy": 134000,
       "source_url": "https://www.1-chome.com/mobile"
     },
     {
