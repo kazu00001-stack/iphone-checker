@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-14T12:22:45+09:00",
+  "fetched_at": "2026-10-14T19:08:48+09:00",
   "apple_models": [
     {
       "name": "iPhone 17 Pro Max",
@@ -239,13 +239,6 @@
       "name": "iPhone Air",
       "capacity": "256GB",
       "price_jpy": 135500,
-      "source_url": "https://somurie-kaitori.com/products?category=1&subcategory=6"
-    },
-    {
-      "site": "somurie",
-      "name": "iPhone Air",
-      "capacity": "512GB",
-      "price_jpy": 144000,
       "source_url": "https://somurie-kaitori.com/products?category=1&subcategory=6"
     },
     {
