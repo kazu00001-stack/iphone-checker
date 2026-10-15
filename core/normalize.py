@@ -6,6 +6,8 @@ from typing import Optional
 from .models import ModelKey
 
 CANONICAL_MODELS = [
+    "iPhone 18 Pro Max",
+    "iPhone 18 Pro",
     "iPhone 17 Pro Max",
     "iPhone 17 Pro",
     "iPhone 17e",

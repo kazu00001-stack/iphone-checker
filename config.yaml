@@ -1,6 +1,22 @@
 default_mile_rate: 1.0
 
 apple_models:
+  - name: "iPhone 18 Pro Max"
+    slug: "iphone-18-pro"
+    capacities: ["256GB", "512GB", "1TB", "2TB"]
+    fallback_prices:
+      "256GB": 239800
+      "512GB": 274800
+      "1TB": 344800
+      "2TB": 449800
+  - name: "iPhone 18 Pro"
+    slug: "iphone-18-pro"
+    capacities: ["256GB", "512GB", "1TB", "2TB"]
+    fallback_prices:
+      "256GB": 219800
+      "512GB": 254800
+      "1TB": 324800
+      "2TB": 429800
   - name: "iPhone 17 Pro Max"
     slug: "iphone-17-pro"
     capacities: ["256GB", "512GB", "1TB", "2TB"]
