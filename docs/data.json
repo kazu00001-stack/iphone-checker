@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-16T12:22:24+09:00",
+  "fetched_at": "2026-10-16T19:09:15+09:00",
   "apple_models": [
     {
       "name": "iPhone 18 Pro Max",
@@ -109,51 +109,51 @@
     {
       "name": "iPhone Air",
       "capacity": "256GB",
-      "price_jpy": 189800,
+      "price_jpy": 159800,
       "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-air",
-      "is_fallback": false
+      "is_fallback": true
     },
     {
       "name": "iPhone Air",
       "capacity": "512GB",
-      "price_jpy": 224800,
+      "price_jpy": 194800,
       "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-air",
-      "is_fallback": false
+      "is_fallback": true
     },
     {
       "name": "iPhone Air",
       "capacity": "1TB",
-      "price_jpy": 294800,
+      "price_jpy": 229800,
       "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-air",
-      "is_fallback": false
+      "is_fallback": true
     },
     {
       "name": "iPhone 17",
       "capacity": "256GB",
-      "price_jpy": 159800,
+      "price_jpy": 129800,
       "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17",
-      "is_fallback": false
+      "is_fallback": true
     },
     {
       "name": "iPhone 17",
       "capacity": "512GB",
-      "price_jpy": 194800,
+      "price_jpy": 164800,
       "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17",
-      "is_fallback": false
+      "is_fallback": true
     },
     {
       "name": "iPhone 17e",
       "capacity": "256GB",
-      "price_jpy": 124800,
+      "price_jpy": 99800,
       "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17e",
-      "is_fallback": false
+      "is_fallback": true
     },
     {
       "name": "iPhone 17e",
       "capacity": "512GB",
-      "price_jpy": 159800,
+      "price_jpy": 134800,
       "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17e",
-      "is_fallback": false
+      "is_fallback": true
     },
     {
       "name": "iPhone 16 Plus",
@@ -172,9 +172,9 @@
     {
       "name": "iPhone 16",
       "capacity": "128GB",
-      "price_jpy": 139800,
+      "price_jpy": 114800,
       "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-16",
-      "is_fallback": false
+      "is_fallback": true
     }
   ],
   "quotes": [
@@ -329,7 +329,7 @@
       "site": "ichome",
       "name": "iPhone 17 Pro Max",
       "capacity": "2TB",
-      "price_jpy": 277000,
+      "price_jpy": 275000,
       "source_url": "https://www.1-chome.com/mobile"
     },
     {
