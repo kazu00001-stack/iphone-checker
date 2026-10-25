@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-24T19:07:56+09:00",
+  "fetched_at": "2026-10-25T12:22:46+09:00",
   "apple_models": [
     {
       "name": "iPhone 18 Pro Max",
@@ -189,14 +189,14 @@
       "site": "mobile_mix",
       "name": "iPhone 18 Pro Max",
       "capacity": "512GB",
-      "price_jpy": 275500,
+      "price_jpy": 276000,
       "source_url": "https://mobile-mix.jp/"
     },
     {
       "site": "mobile_mix",
       "name": "iPhone 18 Pro Max",
       "capacity": "1TB",
-      "price_jpy": 345500,
+      "price_jpy": 346000,
       "source_url": "https://mobile-mix.jp/"
     },
     {
