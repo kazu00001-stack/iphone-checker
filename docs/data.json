@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-31T12:13:35+09:00",
+  "fetched_at": "2026-10-31T19:05:42+09:00",
   "apple_models": [
     {
       "name": "iPhone 18 Pro Max",
@@ -238,14 +238,14 @@
       "site": "ichome",
       "name": "iPhone 18 Pro",
       "capacity": "512GB",
-      "price_jpy": 238000,
+      "price_jpy": 237000,
       "source_url": "https://www.1-chome.com/mobile"
     },
     {
       "site": "ichome",
       "name": "iPhone 18 Pro",
       "capacity": "1TB",
-      "price_jpy": 310000,
+      "price_jpy": 308000,
       "source_url": "https://www.1-chome.com/mobile"
     },
     {
@@ -280,7 +280,7 @@
       "site": "ichome",
       "name": "iPhone 18 Pro Max",
       "capacity": "2TB",
-      "price_jpy": 400000,
+      "price_jpy": 395000,
       "source_url": "https://www.1-chome.com/mobile"
     },
     {
@@ -343,7 +343,7 @@
       "site": "ichome",
       "name": "iPhone 17",
       "capacity": "512GB",
-      "price_jpy": 154000,
+      "price_jpy": 150000,
       "source_url": "https://www.1-chome.com/mobile"
     },
     {
@@ -378,7 +378,7 @@
       "site": "somurie",
       "name": "iPhone 18 Pro Max",
       "capacity": "256GB",
-      "price_jpy": 235500,
+      "price_jpy": 236000,
       "source_url": "https://somurie-kaitori.com/products?category=1&subcategory=58"
     },
     {
