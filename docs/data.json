@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-07T12:13:21+09:00",
+  "fetched_at": "2026-11-07T19:05:25+09:00",
   "apple_models": [
     {
       "name": "iPhone 18 Pro Max",
@@ -210,7 +210,7 @@
       "site": "mobile_mix",
       "name": "iPhone 18 Pro",
       "capacity": "256GB",
-      "price_jpy": 201000,
+      "price_jpy": 201500,
       "source_url": "https://mobile-mix.jp/"
     },
     {
@@ -378,7 +378,7 @@
       "site": "somurie",
       "name": "iPhone 18 Pro",
       "capacity": "256GB",
-      "price_jpy": 201500,
+      "price_jpy": 202000,
       "source_url": "https://somurie-kaitori.com/products?category=1&subcategory=58"
     },
     {
@@ -392,14 +392,14 @@
       "site": "somurie",
       "name": "iPhone 18 Pro",
       "capacity": "512GB",
-      "price_jpy": 235000,
+      "price_jpy": 237000,
       "source_url": "https://somurie-kaitori.com/products?category=1&subcategory=58"
     },
     {
       "site": "somurie",
       "name": "iPhone 18 Pro Max",
       "capacity": "512GB",
-      "price_jpy": 262000,
+      "price_jpy": 262500,
       "source_url": "https://somurie-kaitori.com/products?category=1&subcategory=58"
     },
     {
