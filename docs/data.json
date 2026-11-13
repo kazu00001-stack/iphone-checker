@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-13T12:14:07+09:00",
+  "fetched_at": "2026-11-13T19:06:02+09:00",
   "apple_models": [
     {
       "name": "iPhone 18 Pro Max",
@@ -245,7 +245,7 @@
       "site": "ichome",
       "name": "iPhone 18 Pro",
       "capacity": "1TB",
-      "price_jpy": 301000,
+      "price_jpy": 302000,
       "source_url": "https://www.1-chome.com/mobile"
     },
     {
@@ -273,7 +273,7 @@
       "site": "ichome",
       "name": "iPhone 18 Pro Max",
       "capacity": "1TB",
-      "price_jpy": 331000,
+      "price_jpy": 332000,
       "source_url": "https://www.1-chome.com/mobile"
     },
     {
@@ -364,7 +364,7 @@
       "site": "ichome",
       "name": "iPhone Air",
       "capacity": "1TB",
-      "price_jpy": 153000,
+      "price_jpy": 152000,
       "source_url": "https://www.1-chome.com/mobile"
     },
     {
