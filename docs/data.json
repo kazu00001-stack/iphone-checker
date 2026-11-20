@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-20T12:18:49+09:00",
+  "fetched_at": "2026-11-20T19:10:07+09:00",
   "apple_models": [
     {
       "name": "iPhone 18 Pro Max",
@@ -189,14 +189,14 @@
       "site": "mobile_mix",
       "name": "iPhone 18 Pro Max",
       "capacity": "512GB",
-      "price_jpy": 263000,
+      "price_jpy": 261000,
       "source_url": "https://mobile-mix.jp/"
     },
     {
       "site": "mobile_mix",
       "name": "iPhone 18 Pro Max",
       "capacity": "1TB",
-      "price_jpy": 331000,
+      "price_jpy": 330000,
       "source_url": "https://mobile-mix.jp/"
     },
     {
@@ -259,21 +259,21 @@
       "site": "ichome",
       "name": "iPhone 18 Pro Max",
       "capacity": "256GB",
-      "price_jpy": 226000,
+      "price_jpy": 225000,
       "source_url": "https://www.1-chome.com/mobile"
     },
     {
       "site": "ichome",
       "name": "iPhone 18 Pro Max",
       "capacity": "512GB",
-      "price_jpy": 261000,
+      "price_jpy": 260000,
       "source_url": "https://www.1-chome.com/mobile"
     },
     {
       "site": "ichome",
       "name": "iPhone 18 Pro Max",
       "capacity": "1TB",
-      "price_jpy": 331000,
+      "price_jpy": 330000,
       "source_url": "https://www.1-chome.com/mobile"
     },
     {
@@ -287,14 +287,14 @@
       "site": "ichome",
       "name": "iPhone 17 Pro",
       "capacity": "256GB",
-      "price_jpy": 175000,
+      "price_jpy": 176000,
       "source_url": "https://www.1-chome.com/mobile"
     },
     {
       "site": "ichome",
       "name": "iPhone 17 Pro",
       "capacity": "512GB",
-      "price_jpy": 203500,
+      "price_jpy": 204000,
       "source_url": "https://www.1-chome.com/mobile"
     },
     {
