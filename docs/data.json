@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-19T19:11:13+09:00",
+  "fetched_at": "2026-11-20T12:18:49+09:00",
   "apple_models": [
     {
       "name": "iPhone 18 Pro Max",
@@ -196,14 +196,14 @@
       "site": "mobile_mix",
       "name": "iPhone 18 Pro Max",
       "capacity": "1TB",
-      "price_jpy": 332000,
+      "price_jpy": 331000,
       "source_url": "https://mobile-mix.jp/"
     },
     {
       "site": "mobile_mix",
       "name": "iPhone 18 Pro Max",
       "capacity": "2TB",
-      "price_jpy": 397000,
+      "price_jpy": 395000,
       "source_url": "https://mobile-mix.jp/"
     },
     {
@@ -224,7 +224,7 @@
       "site": "mobile_mix",
       "name": "iPhone 18 Pro",
       "capacity": "1TB",
-      "price_jpy": 302000,
+      "price_jpy": 301000,
       "source_url": "https://mobile-mix.jp/"
     },
     {
@@ -266,7 +266,7 @@
       "site": "ichome",
       "name": "iPhone 18 Pro Max",
       "capacity": "512GB",
-      "price_jpy": 263000,
+      "price_jpy": 261000,
       "source_url": "https://www.1-chome.com/mobile"
     },
     {
@@ -280,7 +280,7 @@
       "site": "ichome",
       "name": "iPhone 18 Pro Max",
       "capacity": "2TB",
-      "price_jpy": 397000,
+      "price_jpy": 395000,
       "source_url": "https://www.1-chome.com/mobile"
     },
     {
@@ -371,14 +371,14 @@
       "site": "somurie",
       "name": "iPhone 17 Pro",
       "capacity": "256GB",
-      "price_jpy": 179000,
+      "price_jpy": 179500,
       "source_url": "https://somurie-kaitori.com/products?category=1&subcategory=3"
     },
     {
       "site": "somurie",
       "name": "iPhone 17 Pro",
       "capacity": "512GB",
-      "price_jpy": 206000,
+      "price_jpy": 206200,
       "source_url": "https://somurie-kaitori.com/products?category=1&subcategory=3"
     },
     {
@@ -392,42 +392,28 @@
       "site": "somurie",
       "name": "iPhone 18 Pro",
       "capacity": "512GB",
-      "price_jpy": 242000,
-      "source_url": "https://somurie-kaitori.com/products?category=1&subcategory=58"
-    },
-    {
-      "site": "somurie",
-      "name": "iPhone 18 Pro Max",
-      "capacity": "512GB",
-      "price_jpy": 264500,
+      "price_jpy": 242500,
       "source_url": "https://somurie-kaitori.com/products?category=1&subcategory=58"
     },
     {
       "site": "somurie",
       "name": "iPhone 18 Pro",
       "capacity": "1TB",
-      "price_jpy": 303000,
-      "source_url": "https://somurie-kaitori.com/products?category=1&subcategory=58"
-    },
-    {
-      "site": "somurie",
-      "name": "iPhone 18 Pro Max",
-      "capacity": "1TB",
-      "price_jpy": 333000,
+      "price_jpy": 303500,
       "source_url": "https://somurie-kaitori.com/products?category=1&subcategory=58"
     },
     {
       "site": "somurie",
       "name": "iPhone 18 Pro",
       "capacity": "2TB",
-      "price_jpy": 376500,
+      "price_jpy": 377000,
       "source_url": "https://somurie-kaitori.com/products?category=1&subcategory=58"
     },
     {
       "site": "somurie",
       "name": "iPhone 18 Pro Max",
       "capacity": "2TB",
-      "price_jpy": 401000,
+      "price_jpy": 401500,
       "source_url": "https://somurie-kaitori.com/products?category=1&subcategory=58"
     }
   ]
